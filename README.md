@@ -1,11 +1,14 @@
 # ◆ Obsidian-Agent
 
+**Deutsch** · [English](readme_en.md) · [Español](readme_es.md)
+
+
 **Projektmanagement direkt in Ihrem Obsidian-Vault.**
 Projekte, Tasks, Protokolle, Jour Fixes und das ganze Team: auf einen Blick, im Browser, und alles bleibt reines Markdown.
 
 `Windows` `macOS` `Linux` `Python 3.9+` `läuft nur auf 127.0.0.1` `🇩🇪 🇬🇧 🇫🇷 🇮🇹 🇪🇸 🇷🇴`
 
-[![Tagesübersicht von Obsidian-Agent](docs/screenshots/heute.png)](docs/screenshots/heute.png)
+[![Tagesübersicht von Obsidian-Agent](obsidian-agent-readme/docs/screenshots/heute.png)](obsidian-agent-readme/docs/screenshots/heute.png)
 
 ---
 
@@ -44,25 +47,25 @@ Ein Klick, und jedes Projekt hat dieselbe saubere Ablage, von Auftrag bis Abschl
 
 Dazu eine Projektübersicht mit Zielen, Meilensteinen und offenen Tasks.
 
-[![Projekte](docs/screenshots/projekte.png)](docs/screenshots/projekte.png)
+[![Projekte](obsidian-agent-readme/docs/screenshots/projekte.png)](obsidian-agent-readme/docs/screenshots/projekte.png)
 
 ### 📄 Dokumentation: die richtige Vorlage am richtigen Ort
 
 Sitzungsprotokoll, Entscheidung, Risiko, Änderungsantrag, Stakeholder, Statusbericht und Projektabschluss. Jedes Dokument landet automatisch im passenden Projektordner, mit einheitlicher Gliederung. Alle Vorlagen passen Sie in Obsidian an.
 
-[![Dokumentation](docs/screenshots/dokumentation.png)](docs/screenshots/dokumentation.png)
+[![Dokumentation](obsidian-agent-readme/docs/screenshots/dokumentation.png)](obsidian-agent-readme/docs/screenshots/dokumentation.png)
 
 ### 🗓️ Jour Fixe: keine Pendenz geht mehr verloren
 
 Sitzungsserien mit Turnus und nächstem Termin. Jede neue Sitzungsnotiz enthält automatisch alle offenen Pendenzen der Serie. Pendenzen sind normale Tasks und erscheinen auch unter Heute und beim Teammitglied.
 
-[![Jour Fixe](docs/screenshots/jourfixe.png)](docs/screenshots/jourfixe.png)
+[![Jour Fixe](obsidian-agent-readme/docs/screenshots/jourfixe.png)](obsidian-agent-readme/docs/screenshots/jourfixe.png)
 
 ### 👥 Team: wer macht was bis wann
 
 Personenkarten mit Rolle, Kontakt und Vertretung und den offenen und überfälligen Tasks jeder Person. Die Zuordnung läuft einfach über Name oder Kürzel.
 
-[![Team](docs/screenshots/team.png)](docs/screenshots/team.png)
+[![Team](obsidian-agent-readme/docs/screenshots/team.png)](obsidian-agent-readme/docs/screenshots/team.png)
 
 ### ✅ Tasks: alle Aufgaben, ein Ort
 
@@ -74,7 +77,7 @@ Die Oberfläche wechselt mit einem Klick. Vorlagen und Ordnernamen entstehen in 
 
 | English | Français |
 |---|---|
-| [![English](docs/screenshots/heute_en.png)](docs/screenshots/heute_en.png) | [![Français](docs/screenshots/heute_fr.png)](docs/screenshots/heute_fr.png) |
+| [![English](obsidian-agent-readme/docs/screenshots/heute_en.png)](obsidian-agent-readme/docs/screenshots/heute_en.png) | [![Français](obsidian-agent-readme/docs/screenshots/heute_fr.png)](obsidian-agent-readme/docs/screenshots/heute_fr.png) |
 
 ### Und ausserdem
 
@@ -98,23 +101,25 @@ Die Oberfläche wechselt mit einem Klick. Vorlagen und Ordnernamen entstehen in 
 
 ## In 5 Minuten startklar
 
+![Setup-Assistent](obsidian-agent-readme/docs/screenshots/Setup-Assistent_Vorschau.png)
+
 ### Windows
 
-1. **[Obsidian-Agent-Setup herunterladen](../../releases/latest)** und die ZIP-Datei entpacken.
+1. **[Obsidian-Agent-Setup-2.0.0-Windows.zip herunterladen](Obsidian-Agent-Setup-2.0.0-Windows.zip)** und entpacken.
 2. `Obsidian-Agent-Setup-2.0.0.exe` starten. Erscheint «Der Computer wurde durch Windows geschützt»: **Weitere Informationen → Trotzdem ausführen**.
-3. Sprache wählen, Vault-Ordner auswählen. Fertig.
+3. Sprache wählen, **Weiter**, Vault-Ordner auswählen, **Fertig stellen**.
 
 Keine Administratorrechte nötig. Fehlt Python, wird es automatisch installiert.
 
 ### macOS
 
-1. **[Obsidian-Agent-2.0.0.pkg herunterladen](../../releases/latest)** und doppelklicken.
+1. **[Obsidian-Agent-2.0.0-Mac.zip herunterladen](Obsidian-Agent-2.0.0-Mac.zip)**, entpacken und `Obsidian-Agent-2.0.0.pkg` doppelklicken.
 2. Falls macOS warnt: **Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen**.
 3. Der Installation folgen und den Vault wählen. Der Agent startet unter **Programme → Obsidian-Agent**.
 
 Danach ist der Agent immer erreichbar unter **http://127.0.0.1:5055**.
 
-📖 Ausführliche Anleitung: [Deutsch](Anleitung/Anleitung_DE.md) · [English](Anleitung/Guide_EN.md) · [Français](Anleitung/Guide_FR.md) · [Italiano](Anleitung/Guida_IT.md) · [Español](Anleitung/Guia_ES.md) · [Română](Anleitung/Ghid_RO.md)
+📖 **[Alle Anleitungen und Kurzinstallation in 6 Sprachen](obsidian-agent-readme/docs/README.md)** · [Deutsch](obsidian-agent-readme/docs/Anleitung_DE.md) · [English](obsidian-agent-readme/docs/Guide_EN.md) · [Français](obsidian-agent-readme/docs/Guide_FR.md) · [Italiano](obsidian-agent-readme/docs/Guida_IT.md) · [Español](obsidian-agent-readme/docs/Guia_ES.md) · [Română](obsidian-agent-readme/docs/Ghid_RO.md)
 
 ## Sicher und ohne Risiko
 
@@ -129,4 +134,4 @@ Danach ist der Agent immer erreichbar unter **http://127.0.0.1:5055**.
 
 *Obsidian-Agent: Ihr Vault, Ihre Projekte, Ihr Überblick.*
 
-<sub>Alle Screenshots zeigen fiktive Beispieldaten. Obsidian ist eine Marke von Dynalist Inc.; Obsidian-Agent ist ein unabhängiges Projekt.</sub>
+<sub>Alle Screenshots zeigen fiktive Beispieldaten. Die Abbildung des Setup-Assistenten ist eine Vorschau der Installationsschritte. Obsidian ist eine Marke von Dynalist Inc.; Obsidian-Agent ist ein unabhängiges Projekt.</sub>

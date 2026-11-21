@@ -1,5 +1,8 @@
 # ◆ Obsidian-Agent
 
+**Deutsch** · [English](../readme_en.md) · [Español](../readme_es.md)
+
+
 **Projektmanagement direkt in Ihrem Obsidian-Vault.**
 Projekte, Tasks, Protokolle, Jour Fixes und das ganze Team: auf einen Blick, im Browser, und alles bleibt reines Markdown.
 
@@ -98,23 +101,25 @@ Die Oberfläche wechselt mit einem Klick. Vorlagen und Ordnernamen entstehen in 
 
 ## In 5 Minuten startklar
 
+![Setup-Assistent](docs/screenshots/Setup-Assistent_Vorschau.png)
+
 ### Windows
 
-1. **[Obsidian-Agent-Setup herunterladen](../../releases/latest)** und die ZIP-Datei entpacken.
+1. **[Obsidian-Agent-Setup-2.0.0-Windows.zip herunterladen](../Obsidian-Agent-Setup-2.0.0-Windows.zip)** und entpacken.
 2. `Obsidian-Agent-Setup-2.0.0.exe` starten. Erscheint «Der Computer wurde durch Windows geschützt»: **Weitere Informationen → Trotzdem ausführen**.
-3. Sprache wählen, Vault-Ordner auswählen. Fertig.
+3. Sprache wählen, **Weiter**, Vault-Ordner auswählen, **Fertig stellen**.
 
 Keine Administratorrechte nötig. Fehlt Python, wird es automatisch installiert.
 
 ### macOS
 
-1. **[Obsidian-Agent-2.0.0.pkg herunterladen](../../releases/latest)** und doppelklicken.
+1. **[Obsidian-Agent-2.0.0-Mac.zip herunterladen](../Obsidian-Agent-2.0.0-Mac.zip)**, entpacken und `Obsidian-Agent-2.0.0.pkg` doppelklicken.
 2. Falls macOS warnt: **Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen**.
 3. Der Installation folgen und den Vault wählen. Der Agent startet unter **Programme → Obsidian-Agent**.
 
 Danach ist der Agent immer erreichbar unter **http://127.0.0.1:5055**.
 
-📖 Ausführliche Anleitung: [Deutsch](Anleitung/Anleitung_DE.md) · [English](Anleitung/Guide_EN.md) · [Français](Anleitung/Guide_FR.md) · [Italiano](Anleitung/Guida_IT.md) · [Español](Anleitung/Guia_ES.md) · [Română](Anleitung/Ghid_RO.md)
+📖 **[Alle Anleitungen und Kurzinstallation in 6 Sprachen](docs/README.md)** · [Deutsch](docs/Anleitung_DE.md) · [English](docs/Guide_EN.md) · [Français](docs/Guide_FR.md) · [Italiano](docs/Guida_IT.md) · [Español](docs/Guia_ES.md) · [Română](docs/Ghid_RO.md)
 
 ## Sicher und ohne Risiko
 
@@ -129,4 +134,4 @@ Danach ist der Agent immer erreichbar unter **http://127.0.0.1:5055**.
 
 *Obsidian-Agent: Ihr Vault, Ihre Projekte, Ihr Überblick.*
 
-<sub>Alle Screenshots zeigen fiktive Beispieldaten. Obsidian ist eine Marke von Dynalist Inc.; Obsidian-Agent ist ein unabhängiges Projekt.</sub>
+<sub>Alle Screenshots zeigen fiktive Beispieldaten. Die Abbildung des Setup-Assistenten ist eine Vorschau der Installationsschritte. Obsidian ist eine Marke von Dynalist Inc.; Obsidian-Agent ist ein unabhängiges Projekt.</sub>
